@@ -1,2 +1,2 @@
-# Computer Systems class Projects CSCI 3753
-Consolidating all class Projects for Computer Systems.
+# Operating Systems class Projects CSCI 3753
+Consolidating all class Projects for Operating Systems.
