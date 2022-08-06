@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Written to compile a single program file w/o checks though."
+
+echo "What is the input file name/location?"
+read input
+
+#echo " "$input
+
+echo "What output name would you like?"
+read output
+
+gcc -Wall -Wextra $input -o $output
+
+echo "Running output file"
+./$output
+echo
+
+#echo -e "\nRunning check on kernel with sudo tail /var/log/syslog\n\n"
+#sudo tail /var/log/syslog
+
+#echo -e "\nShould see the output for the kernel.\n"
+
